@@ -1,0 +1,11 @@
+
+
+         Long id = (Long)obj2[4];
+         String attachName = (String)obj2[1];
+         Long aSize = (Long)obj2[3];
+
+"http://96.0.32.11/oa/messageFileDown?id=42301182" + sMsg_id + ";";
+
+
+String attachUrl = serverAddress + "//messageFileDown?id=" + obj2[0] + ";" + 
+       DiskTool.createFolder(new StringBuffer(String.valueOf(filePath)).append("/����").toString()) + "/" + attachName;
